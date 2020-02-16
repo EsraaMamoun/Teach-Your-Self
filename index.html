@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teach Your Self</title>
+    <style>
+ header h1{
+     text-align: center;
+     background-color: darkblue;
+     color: cornflowerblue;
+ }
+ nav ul{
+ background-color: cornflowerblue;
+ color: darkblue;
+ text-align: center;
+}
+
+main{
+    text-align: center;
+}
+#Name{
+    background-color: purple;
+    color:yellow;
+}
+#Old{
+    background-color: red;
+    color:rgb(3, 102, 3);
+}
+#Course{
+    background-color:blue;
+    color:orange;
+}
+#learnSelf{
+    background-color:steelblue;
+    color:rgb(180, 48, 0);
+}
+#theFun{
+    background-color: rgb(69, 2, 71);
+    color:springgreen;
+}
+footer{
+    background-color:rgb(245, 237, 155);
+    color: rgb(3, 3, 92);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    margin: 0 auto;
+}
+    </style>
+</head>
+<body>
+<header>
+<h1>TEACH YOUR SELF</h1>
+<nav>
+<ul>
+    <li>Home</li>
+    <li>Regester</li>
+    <li>About us</li>
+</ul>
+</nav>
+</header>
+<main>
+<p id="Name">Hello, Whats your name?</p>
+<p id="Old">How old are you?</p>
+<p id="Course">How many courses did you finish until now?</p>
+<p id="learnSelf">At what age did you start learning-self?</p>
+<p id="theFun">Was it a pleasant experience for you?</p>
+</main>
+<footer>
+Copyright for <i>Teach Your Self</i> Site.
+</footer>
+<script>
+    var name=prompt('Hello, Whats your name?');
+    var old=prompt(name+', How old are you?');
+    var course=prompt('How many courses did you finish until now?');
+    var age=prompt('At what age did you start learning-self?');
+    var fun=prompt('Was it a pleasant experience for you?');
+    console.log('The Name is: ',name,', ',old,' years old,','had a ',course,' courses',', was started learning-self at ',age);
+    alert('Welcome '+name+', you have a '+old+'years old, and you finished '+course+'courses until now, you are started learning-self when your age was a '+age+' years');
+</script>
+</body>
+</html>
